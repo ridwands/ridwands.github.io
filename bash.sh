@@ -2,7 +2,7 @@
 mkdir MidtransArchive
 sudo chmod 755 MidtransArchive
 counter=1
-while [ $counter -le 2 ]
+while [ $counter -le 25 ]
 do
 touch MidtransArchive/Midtrans_Files$counter
 sudo chown centos:root MidtransArchive/*
